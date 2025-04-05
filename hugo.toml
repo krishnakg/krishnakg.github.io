@@ -1,0 +1,19 @@
+baseURL = 'https://krishnakg.github.io/'
+languageCode = 'en-us'
+title = "krishnakg"
+
+[module]
+    [[module.imports]]
+        path = "github.com/mrmierzejewski/hugo-theme-console"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+    [[params.navlinks]]
+    name = "posts/"
+    url = "posts/"
+
+    [[params.navlinks]]
+    name = "rss/"
+    url = "index.xml"
