@@ -1,6 +1,7 @@
 baseURL = 'https://varnam.net/'
 languageCode = 'en-us'
 title = "krishnakg"
+canonifyURLs = true
 
 [module]
     [[module.imports]]
