@@ -3,7 +3,7 @@
 * Streamline Org-Mode Capture: Disable Browser Prompts for Org-Protocol :emacs:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: disable-browser-prompts-org-protocol
-:EXPORT_DATE: [2025-04-07 Mon]
+:EXPORT_DATE: [2025-04-07 Mon 08:00]
 :END:
 
 I use emacs org-mode to capture links from the browser for later reading, or for archiving. For this purpose, I use a simple [[https://www.gnu.org/software/emacs/manual/html_node/org/The-capture-protocol.html][bookmarklet]] to capture the link, title and any selected text, and then use an org-capture template to store the information. However, when i click on the bookmarklet, most browsers throw a pop-up asking for permission to open org-protocol:// links. This security check, while well-intentioned, adds friction every time I try to capture a link.
@@ -38,14 +38,14 @@ To debug whether policies were loaded, go to chrome://policy or brave://policy, 
 * Trade deficits aren't necessarily bad! :economics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: trade-deficits-not-bad
-:EXPORT_DATE: [2025-04-06 Sun]
+:EXPORT_DATE: [2025-04-06 Sun 14:00]
 :END:
 
 Noah Smith [[https://www.noahpinion.blog/p/trade-deficits-do-not-make-a-country][challenges]] the common perception of trade deficits, using the credit card analogy to illustrate that they represent acquiring more goods in exchange for future financial obligations. This perspective helps us understand how South Korea, for example, leveraged trade deficits to fuel rapid industrial growth, particularly in its manufacturing sector, by importing necessary capital goods. However, the US experience with China demonstrates the potential for trade deficits to contribute to deindustrialization, as seen in the decline of American steel and textile industries. Therefore, while addressing deindustrialization is crucial, tariffs offer a simplistic and potentially harmful solution.
 * Mounting Synology folder share on linux :linux:
 :PROPERTIES:
 :EXPORT_FILE_NAME: mount-synology-on-linux
-:EXPORT_DATE: [2025-04-05 Sat]
+:EXPORT_DATE: [2025-04-05 Sat 17:00]
 :END:
 
 Accessing files stored on your Synology NAS directly from your Linux machine can be very convenient, whether it's for managing media libraries, accessing shared documents, or performing backups. This guide provides quick steps to mount a Synology share on Ubuntu or its derivatives (like Pop!_OS) using the CIFS protocol, ensuring it's available even after a reboot.

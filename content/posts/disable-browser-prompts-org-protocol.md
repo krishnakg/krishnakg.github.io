@@ -1,7 +1,7 @@
 +++
 title = "Streamline Org-Mode Capture: Disable Browser Prompts for Org-Protocol"
 author = ["Krishna Gopalakrishnan"]
-date = 2025-04-07T00:00:00-07:00
+date = 2025-04-07T08:00:00-07:00
 tags = ["emacs", "orgmode"]
 draft = false
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Mounting Synology folder share on linux"
 author = ["Krishna Gopalakrishnan"]
-date = 2025-04-05T00:00:00-07:00
+date = 2025-04-05T17:00:00-07:00
 tags = ["linux"]
 draft = false
 +++
