@@ -40,7 +40,7 @@
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 {{ range .Site.Params.navlinks }}
-                <li property="listitemElement"><a href="{{ absURL .url }}" typeof="ListItem">{{ .name }}</a></li>
+                <li property="itemListElement"><a href="{{ absURL .url }}" typeof="ListItem">{{ .name }}</a></li>
                 {{ end }}
             </ul>
           </nav>
