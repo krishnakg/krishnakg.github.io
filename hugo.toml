@@ -1,7 +1,9 @@
 baseURL = 'https://varnam.net/'
 languageCode = 'en-us'
 title = "krishnakg"
-canonifyURLs = true
+
+# This will enable the default robots.txt file.
+enableRobotsTXT = true
 
 [module]
     [[module.imports]]

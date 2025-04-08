@@ -10,5 +10,8 @@
 {{ end }}
 <br/><br/>
 {{ .Content }}
+{{ range .Params.tags }}
+  <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>
+{{ end }}
 {{ template "_internal/disqus.html" . }}
 {{ end }}
