@@ -17,7 +17,7 @@ I also noticed that the card does not wake up after it goes to sleep, so I have 
 
 Overall, this seems to have fixed the regular wifi disconnections.
 
-* Streamline Org-Mode Capture: Disable Browser Prompts for Org-Protocol :emacs:orgmode:
+* DONE Streamline Org-Mode Capture: Disable Browser Prompts for Org-Protocol :emacs:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: disable-browser-prompts-org-protocol
 :EXPORT_DATE: [2025-04-07 Mon 08:00]
@@ -51,14 +51,14 @@ EOF
 The above command works for Chrome, but Brave seems to store the policies at /etc/brave/policies, so update the paths accordingly.
 
 To debug whether policies were loaded, go to chrome://policy or brave://policy, and check logs. You can also reload policies here without having to restart chrome/brave.
-* Trade deficits aren't necessarily bad! :economics:
+* DONE Trade deficits aren't necessarily bad! :economics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: trade-deficits-not-bad
 :EXPORT_DATE: [2025-04-06 Sun 14:00]
 :END:
 
 Noah Smith [[https://www.noahpinion.blog/p/trade-deficits-do-not-make-a-country][challenges]] the common perception of trade deficits, using the credit card analogy to illustrate that they represent acquiring more goods in exchange for future financial obligations. This perspective helps us understand how South Korea, for example, leveraged trade deficits to fuel rapid industrial growth, particularly in its manufacturing sector, by importing necessary capital goods. However, the US experience with China demonstrates the potential for trade deficits to contribute to deindustrialization, as seen in the decline of American steel and textile industries. Therefore, while addressing deindustrialization is crucial, tariffs offer a simplistic and potentially harmful solution.
-* Mounting Synology folder share on linux :linux:
+* DONE Mounting Synology folder share on linux :linux:
 :PROPERTIES:
 :EXPORT_FILE_NAME: mount-synology-on-linux
 :EXPORT_DATE: [2025-04-05 Sat 17:00]
