@@ -2,12 +2,12 @@
 title = "Quickly subscribing to RSS feeds in FreshRSS"
 author = ["Krishna Gopalakrishnan"]
 date = 2025-04-13T18:13:00-07:00
-lastmod = 2025-04-13T18:13:32-07:00
+lastmod = 2025-04-13T18:27:36-07:00
 tags = ["freshrss"]
 draft = false
 +++
 
-I use a selfhosted [FreshRSS](https://freshrss.org/index.html) instance to manage by rss feeds. I wanted a quick way to add a web page's rss feed into FreshRSS without copy pasting the URLs. So i created a bookmarklet with the following code to open the freshRSS add-feed page with the URL filled in.
+I use a selfhosted [FreshRSS](https://freshrss.org/index.html) instance to manage my rss feeds. I wanted a quick way to add a web page's rss feed into FreshRSS without copy pasting the URLs. So i created a bookmarklet with the following code to open the freshRSS add-feed page with the URL filled in.
 
 <!--more-->
 

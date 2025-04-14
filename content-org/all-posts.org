@@ -8,7 +8,7 @@ CLOSED: [2025-04-13 Sun 18:13]
 :EXPORT_FILE_NAME: quickly-subscribing-to-rss-feeds
 :END:
 
-I use a selfhosted [[https://freshrss.org/index.html][FreshRSS]] instance to manage by rss feeds. I wanted a quick way to add a web page's rss feed into FreshRSS without copy pasting the URLs. So i created a bookmarklet with the following code to open the freshRSS add-feed page with the URL filled in.
+I use a selfhosted [[https://freshrss.org/index.html][FreshRSS]] instance to manage my rss feeds. I wanted a quick way to add a web page's rss feed into FreshRSS without copy pasting the URLs. So i created a bookmarklet with the following code to open the freshRSS add-feed page with the URL filled in.
 
 #+hugo: more
 #+begin_src javascript
