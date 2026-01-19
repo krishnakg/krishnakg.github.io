@@ -1,0 +1,22 @@
+baseURL = 'https://varnam.net/'
+languageCode = 'en-us'
+title = "krishnakg"
+
+# This will enable the default robots.txt file.
+enableRobotsTXT = true
+
+[module]
+    [[module.imports]]
+        path = "github.com/mrmierzejewski/hugo-theme-console"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+    [[params.navlinks]]
+    name = "posts/"
+    url = "posts/"
+
+    [[params.navlinks]]
+    name = "rss/"
+    url = "index.xml"

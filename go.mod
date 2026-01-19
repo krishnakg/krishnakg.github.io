@@ -1,5 +1,5 @@
-module krishnakg.github.io
+module github.com/krishnakg/blog
 
-go 1.24.2
+go 1.25.5
 
-require github.com/mrmierzejewski/hugo-theme-console v0.0.0-20250410175535-005753765e4c // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20260109161122-6c5a8f6b055c // indirect

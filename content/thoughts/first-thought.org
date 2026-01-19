@@ -1,0 +1,6 @@
+#+TITLE: First Thought
+#+DATE: 2026-01-18T12:00:00
+#+filetags: :micro:
+
+This is my first micro-blog post! No titles required really, just a quick thought.
+Native Org-mode support in Hugo makes this super easy.

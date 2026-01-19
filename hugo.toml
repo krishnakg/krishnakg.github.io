@@ -1,22 +1,53 @@
-baseURL = 'https://varnam.net/'
-languageCode = 'en-us'
+baseURL = "https://varnam.net/"
 title = "krishnakg"
+languageCode = "en-us"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
 
-# This will enable the default robots.txt file.
 enableRobotsTXT = true
 
-[module]
-    [[module.imports]]
-        path = "github.com/mrmierzejewski/hugo-theme-console"
-
 [markup.goldmark.renderer]
-    unsafe = true
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
 
 [params]
-    [[params.navlinks]]
-    name = "posts/"
-    url = "posts/"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # PaperMod specifics
+  [params.profileMode]
+    enabled = false
+    title = "krishnakg"
+    subtitle = "Notes on software, chess, and life."
+    imageUrl = "https://github.com/krishnakg.png"
+    imageTitle = "Krishna KG"
+    buttons = [
+      { name = "Posts", url = "posts" },
+      { name = "Thoughts", url = "thoughts" },
+      { name = "Github", url = "https://github.com/krishnakg" }
+    ]
 
-    [[params.navlinks]]
-    name = "rss/"
-    url = "index.xml"
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Welcome to my blog."
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "thoughts"
+    name = "Thoughts"
+    url = "/thoughts/"
+    weight = 20
+
+# Native Org-Mode Support Configuration
+[security.exec]
+  allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$"]
