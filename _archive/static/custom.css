@@ -1,7 +1,0 @@
-.highlight pre {
-    background-color:var(--block-background-color) !important;
-}
-pre code {
-    /* Show horizontal scrolling only if required */
-    overflow-x: auto;
-}
